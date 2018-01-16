@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE756675200DCBF300C1859C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE756674200DCBF300C1859C /* AppDelegate.swift */; };
+		EE756677200DCBF300C1859C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE756676200DCBF300C1859C /* ViewController.swift */; };
+		EE75667A200DCBF300C1859C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE756678200DCBF300C1859C /* Main.storyboard */; };
+		EE75667C200DCBF300C1859C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE75667B200DCBF300C1859C /* Assets.xcassets */; };
+		EE75667F200DCBF300C1859C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE75667D200DCBF300C1859C /* LaunchScreen.storyboard */; };
+		EE75668A200DCBF300C1859C /* TryToGuessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE756689200DCBF300C1859C /* TryToGuessTests.swift */; };
+		EE756695200DCBF300C1859C /* TryToGuessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE756694200DCBF300C1859C /* TryToGuessUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE756686200DCBF300C1859C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE756669200DCBF300C1859C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE756670200DCBF300C1859C;
+			remoteInfo = TryToGuess;
+		};
+		EE756691200DCBF300C1859C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE756669200DCBF300C1859C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE756670200DCBF300C1859C;
+			remoteInfo = TryToGuess;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE756671200DCBF300C1859C /* TryToGuess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryToGuess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE756674200DCBF300C1859C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE756676200DCBF300C1859C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE756679200DCBF300C1859C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE75667B200DCBF300C1859C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE75667E200DCBF300C1859C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE756680200DCBF300C1859C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE756685200DCBF300C1859C /* TryToGuessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryToGuessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE756689200DCBF300C1859C /* TryToGuessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryToGuessTests.swift; sourceTree = "<group>"; };
+		EE75668B200DCBF300C1859C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE756690200DCBF300C1859C /* TryToGuessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryToGuessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE756694200DCBF300C1859C /* TryToGuessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryToGuessUITests.swift; sourceTree = "<group>"; };
+		EE756696200DCBF300C1859C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE75666E200DCBF300C1859C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE756682200DCBF300C1859C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE75668D200DCBF300C1859C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE756668200DCBF300C1859C = {
+			isa = PBXGroup;
+			children = (
+				EE756673200DCBF300C1859C /* TryToGuess */,
+				EE756688200DCBF300C1859C /* TryToGuessTests */,
+				EE756693200DCBF300C1859C /* TryToGuessUITests */,
+				EE756672200DCBF300C1859C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE756672200DCBF300C1859C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE756671200DCBF300C1859C /* TryToGuess.app */,
+				EE756685200DCBF300C1859C /* TryToGuessTests.xctest */,
+				EE756690200DCBF300C1859C /* TryToGuessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE756673200DCBF300C1859C /* TryToGuess */ = {
+			isa = PBXGroup;
+			children = (
+				EE756674200DCBF300C1859C /* AppDelegate.swift */,
+				EE756676200DCBF300C1859C /* ViewController.swift */,
+				EE756678200DCBF300C1859C /* Main.storyboard */,
+				EE75667B200DCBF300C1859C /* Assets.xcassets */,
+				EE75667D200DCBF300C1859C /* LaunchScreen.storyboard */,
+				EE756680200DCBF300C1859C /* Info.plist */,
+			);
+			path = TryToGuess;
+			sourceTree = "<group>";
+		};
+		EE756688200DCBF300C1859C /* TryToGuessTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE756689200DCBF300C1859C /* TryToGuessTests.swift */,
+				EE75668B200DCBF300C1859C /* Info.plist */,
+			);
+			path = TryToGuessTests;
+			sourceTree = "<group>";
+		};
+		EE756693200DCBF300C1859C /* TryToGuessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE756694200DCBF300C1859C /* TryToGuessUITests.swift */,
+				EE756696200DCBF300C1859C /* Info.plist */,
+			);
+			path = TryToGuessUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE756670200DCBF300C1859C /* TryToGuess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE756699200DCBF300C1859C /* Build configuration list for PBXNativeTarget "TryToGuess" */;
+			buildPhases = (
+				EE75666D200DCBF300C1859C /* Sources */,
+				EE75666E200DCBF300C1859C /* Frameworks */,
+				EE75666F200DCBF300C1859C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TryToGuess;
+			productName = TryToGuess;
+			productReference = EE756671200DCBF300C1859C /* TryToGuess.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE756684200DCBF300C1859C /* TryToGuessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE75669C200DCBF300C1859C /* Build configuration list for PBXNativeTarget "TryToGuessTests" */;
+			buildPhases = (
+				EE756681200DCBF300C1859C /* Sources */,
+				EE756682200DCBF300C1859C /* Frameworks */,
+				EE756683200DCBF300C1859C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE756687200DCBF300C1859C /* PBXTargetDependency */,
+			);
+			name = TryToGuessTests;
+			productName = TryToGuessTests;
+			productReference = EE756685200DCBF300C1859C /* TryToGuessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE75668F200DCBF300C1859C /* TryToGuessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE75669F200DCBF300C1859C /* Build configuration list for PBXNativeTarget "TryToGuessUITests" */;
+			buildPhases = (
+				EE75668C200DCBF300C1859C /* Sources */,
+				EE75668D200DCBF300C1859C /* Frameworks */,
+				EE75668E200DCBF300C1859C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE756692200DCBF300C1859C /* PBXTargetDependency */,
+			);
+			name = TryToGuessUITests;
+			productName = TryToGuessUITests;
+			productReference = EE756690200DCBF300C1859C /* TryToGuessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE756669200DCBF300C1859C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Zhenya Taran";
+				TargetAttributes = {
+					EE756670200DCBF300C1859C = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					EE756684200DCBF300C1859C = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE756670200DCBF300C1859C;
+					};
+					EE75668F200DCBF300C1859C = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE756670200DCBF300C1859C;
+					};
+				};
+			};
+			buildConfigurationList = EE75666C200DCBF300C1859C /* Build configuration list for PBXProject "TryToGuess" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE756668200DCBF300C1859C;
+			productRefGroup = EE756672200DCBF300C1859C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE756670200DCBF300C1859C /* TryToGuess */,
+				EE756684200DCBF300C1859C /* TryToGuessTests */,
+				EE75668F200DCBF300C1859C /* TryToGuessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE75666F200DCBF300C1859C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE75667F200DCBF300C1859C /* LaunchScreen.storyboard in Resources */,
+				EE75667C200DCBF300C1859C /* Assets.xcassets in Resources */,
+				EE75667A200DCBF300C1859C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE756683200DCBF300C1859C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE75668E200DCBF300C1859C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE75666D200DCBF300C1859C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE756677200DCBF300C1859C /* ViewController.swift in Sources */,
+				EE756675200DCBF300C1859C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE756681200DCBF300C1859C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE75668A200DCBF300C1859C /* TryToGuessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE75668C200DCBF300C1859C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE756695200DCBF300C1859C /* TryToGuessUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE756687200DCBF300C1859C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE756670200DCBF300C1859C /* TryToGuess */;
+			targetProxy = EE756686200DCBF300C1859C /* PBXContainerItemProxy */;
+		};
+		EE756692200DCBF300C1859C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE756670200DCBF300C1859C /* TryToGuess */;
+			targetProxy = EE756691200DCBF300C1859C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE756678200DCBF300C1859C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE756679200DCBF300C1859C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE75667D200DCBF300C1859C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE75667E200DCBF300C1859C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE756697200DCBF300C1859C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE756698200DCBF300C1859C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE75669A200DCBF300C1859C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y683TFA2UW;
+				INFOPLIST_FILE = TryToGuess/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TaranInc.TryToGuess;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE75669B200DCBF300C1859C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y683TFA2UW;
+				INFOPLIST_FILE = TryToGuess/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TaranInc.TryToGuess;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE75669D200DCBF300C1859C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y683TFA2UW;
+				INFOPLIST_FILE = TryToGuessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TaranInc.TryToGuessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TryToGuess.app/TryToGuess";
+			};
+			name = Debug;
+		};
+		EE75669E200DCBF300C1859C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y683TFA2UW;
+				INFOPLIST_FILE = TryToGuessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TaranInc.TryToGuessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TryToGuess.app/TryToGuess";
+			};
+			name = Release;
+		};
+		EE7566A0200DCBF300C1859C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y683TFA2UW;
+				INFOPLIST_FILE = TryToGuessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TaranInc.TryToGuessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TryToGuess;
+			};
+			name = Debug;
+		};
+		EE7566A1200DCBF300C1859C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y683TFA2UW;
+				INFOPLIST_FILE = TryToGuessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TaranInc.TryToGuessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TryToGuess;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE75666C200DCBF300C1859C /* Build configuration list for PBXProject "TryToGuess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE756697200DCBF300C1859C /* Debug */,
+				EE756698200DCBF300C1859C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE756699200DCBF300C1859C /* Build configuration list for PBXNativeTarget "TryToGuess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE75669A200DCBF300C1859C /* Debug */,
+				EE75669B200DCBF300C1859C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE75669C200DCBF300C1859C /* Build configuration list for PBXNativeTarget "TryToGuessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE75669D200DCBF300C1859C /* Debug */,
+				EE75669E200DCBF300C1859C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE75669F200DCBF300C1859C /* Build configuration list for PBXNativeTarget "TryToGuessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7566A0200DCBF300C1859C /* Debug */,
+				EE7566A1200DCBF300C1859C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE756669200DCBF300C1859C /* Project object */;
+}
