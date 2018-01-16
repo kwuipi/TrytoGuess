@@ -25,6 +25,10 @@ class ViewController: UIViewController {
         let tabBarcontroller = storyBoard.instantiateViewController(withIdentifier: "TabBarController")
         self.present(tabBarcontroller, animated:true, completion:nil)
     }
+
+    @IBAction func dsa(_ sender: UIButton) {
+            self.performSegue(withIdentifier: "ShowTestScreen", sender: sender)
+    }
     
 }
 
