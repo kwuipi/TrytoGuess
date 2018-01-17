@@ -100,8 +100,8 @@
 				EE756674200DCBF300C1859C /* AppDelegate.swift */,
 				EE756676200DCBF300C1859C /* ViewController.swift */,
 				EE756678200DCBF300C1859C /* Main.storyboard */,
-				EE7566A3200DE20000C1859C /* Assets.xcassets */,
 				EE75667D200DCBF300C1859C /* LaunchScreen.storyboard */,
+				EE7566A3200DE20000C1859C /* Assets.xcassets */,
 				EE756680200DCBF300C1859C /* Info.plist */,
 			);
 			path = TryToGuess;
