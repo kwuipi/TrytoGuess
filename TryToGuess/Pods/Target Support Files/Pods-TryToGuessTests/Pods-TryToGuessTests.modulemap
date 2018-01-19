@@ -1,0 +1,6 @@
+framework module Pods_TryToGuessTests {
+  umbrella header "Pods-TryToGuessTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
