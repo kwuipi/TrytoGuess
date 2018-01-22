@@ -29,13 +29,15 @@ class ViewController: UIViewController {
         user.password = password.text
         
         QBRequest.signUp(user, successBlock: { (response, user) in
-            self.performSegue(withIdentifier: "SignUpPressed", sender: self)
+            DispatchQueue.main.async {
+                self.performSegue(withIdentifier: "SignUpPressed", sender: self)
+            }
         }) { (response) in
         }
     }
 
     @IBAction func firstButtonPressed(_ sender: UIButton) {
-        singUP()
+         singUP()
     }
 
     @IBAction func SignUpButton(_ sender: Any) {

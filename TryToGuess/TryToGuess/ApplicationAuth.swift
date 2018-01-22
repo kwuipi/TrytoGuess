@@ -11,14 +11,14 @@ import Quickblox
 
 class AuthQB {
     let KqBloxAppID:UInt = 67222
-    let KqBloxAuthKey = "9cBNq6jLOkzyHjK"
-    let KqBloxAuthSecret = "EWJkGNxF-qThOWn"
-    
+    let KqBloxAuthKey = "JN3K4JPAwQN-PdV"
+    let KqBloxAuthSecret = "RgTqGYyYkk8ekhE"
+    let Kqbloxacckey = "z371AcrSKri8gq5p6iM2"
     func auth() {
         QBSettings.applicationID = KqBloxAppID
         QBSettings.authKey = KqBloxAuthKey
         QBSettings.authSecret = KqBloxAuthSecret
-        
         QBSettings.logLevel = .nothing
+        QBSettings.accountKey = Kqbloxacckey
     }
 }
