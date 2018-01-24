@@ -10,6 +10,10 @@
 		33D8245BF09C9CFAA101713F /* Pods_TryToGuess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73791CAF555B512A039851D7 /* Pods_TryToGuess.framework */; };
 		BCF06999D5E1FC4EC04D771A /* Pods_TryToGuessTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 838E1D201078E37B070A38DF /* Pods_TryToGuessTests.framework */; };
 		CC76BEC79563325B470F3673 /* Pods_TryToGuessUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1DAE08A88E1907D65B939E5 /* Pods_TryToGuessUITests.framework */; };
+		EE38AAAC201728A3000847CC /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE38AAAB201728A3000847CC /* LaunchScreenViewController.swift */; };
+		EE38AAAE20172907000847CC /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE38AAAD20172907000847CC /* SignUpViewController.swift */; };
+		EE38AAB12017299E000847CC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE38AAB02017299E000847CC /* User.swift */; };
+		EE38AAB320172B61000847CC /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE38AAB220172B61000847CC /* LogInViewController.swift */; };
 		EE5025ED2011D34F00ADDD66 /* ApplicationAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5025EC2011D34F00ADDD66 /* ApplicationAuth.swift */; };
 		EE756675200DCBF300C1859C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE756674200DCBF300C1859C /* AppDelegate.swift */; };
 		EE756677200DCBF300C1859C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE756676200DCBF300C1859C /* ViewController.swift */; };
@@ -46,6 +50,10 @@
 		A1DAE08A88E1907D65B939E5 /* Pods_TryToGuessUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TryToGuessUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D033135C3FC7A2EE31849E2F /* Pods-TryToGuessUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryToGuessUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TryToGuessUITests/Pods-TryToGuessUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E8300BFD0AC973E76E2DEB61 /* Pods-TryToGuess.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryToGuess.release.xcconfig"; path = "Pods/Target Support Files/Pods-TryToGuess/Pods-TryToGuess.release.xcconfig"; sourceTree = "<group>"; };
+		EE38AAAB201728A3000847CC /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
+		EE38AAAD20172907000847CC /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		EE38AAB02017299E000847CC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EE38AAB220172B61000847CC /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		EE5025EC2011D34F00ADDD66 /* ApplicationAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationAuth.swift; sourceTree = "<group>"; };
 		EE756671200DCBF300C1859C /* TryToGuess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryToGuess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE756674200DCBF300C1859C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -114,6 +122,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EE38AAAA20172888000847CC /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EE38AAAB201728A3000847CC /* LaunchScreenViewController.swift */,
+				EE38AAAD20172907000847CC /* SignUpViewController.swift */,
+				EE38AAB220172B61000847CC /* LogInViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		EE38AAAF20172993000847CC /* User */ = {
+			isa = PBXGroup;
+			children = (
+				EE38AAB02017299E000847CC /* User.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
 		EE756668200DCBF300C1859C = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +165,8 @@
 		EE756673200DCBF300C1859C /* TryToGuess */ = {
 			isa = PBXGroup;
 			children = (
+				EE38AAAF20172993000847CC /* User */,
+				EE38AAAA20172888000847CC /* View Controllers */,
 				EE756674200DCBF300C1859C /* AppDelegate.swift */,
 				EE5025EC2011D34F00ADDD66 /* ApplicationAuth.swift */,
 				EE756676200DCBF300C1859C /* ViewController.swift */,
@@ -463,7 +491,11 @@
 			files = (
 				EE5025ED2011D34F00ADDD66 /* ApplicationAuth.swift in Sources */,
 				EE756677200DCBF300C1859C /* ViewController.swift in Sources */,
+				EE38AAB12017299E000847CC /* User.swift in Sources */,
+				EE38AAB320172B61000847CC /* LogInViewController.swift in Sources */,
+				EE38AAAC201728A3000847CC /* LaunchScreenViewController.swift in Sources */,
 				EE756675200DCBF300C1859C /* AppDelegate.swift in Sources */,
+				EE38AAAE20172907000847CC /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
