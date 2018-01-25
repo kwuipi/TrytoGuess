@@ -12,14 +12,13 @@ import Quickblox
 
 class SignUpViewController: UIViewController {
    
-    @IBOutlet weak var test: UITextField!
+    
     @IBOutlet weak var login: UITextField?
     @IBOutlet weak var password: UITextField?
     
     //let sign = User()
     @IBAction func chechLogInButton(_ sender: UIButton) {
         signUP()
-        get()
     }
     
     func signUP() {
@@ -35,16 +34,6 @@ class SignUpViewController: UIViewController {
         }
     }
 
-    func get() {
-        var text: [String]
-        let customObject = QBCOCustomObject()
-        QBRequest.object(withClassName: "text", id: "5a66d584a28f9a1edef1fd50", successBlock: { (response, customObject) in
-            let field = customObject?.fields["text"]
-            self.test.insertText(field as! String)
-        }) { (response) in
-
-        }
-    }
     
 
 }

@@ -22,6 +22,9 @@
 		EE75668A200DCBF300C1859C /* TryToGuessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE756689200DCBF300C1859C /* TryToGuessTests.swift */; };
 		EE756695200DCBF300C1859C /* TryToGuessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE756694200DCBF300C1859C /* TryToGuessUITests.swift */; };
 		EE7566A4200DE20000C1859C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE7566A3200DE20000C1859C /* Assets.xcassets */; };
+		EEA373C82019BBE400EBB206 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA373C72019BBE400EBB206 /* MainViewController.swift */; };
+		EEA373CA2019BFC200EBB206 /* View+SubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA373C92019BFC200EBB206 /* View+SubView.swift */; };
+		EEA373CC2019C87000EBB206 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA373CB2019C87000EBB206 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +71,9 @@
 		EE756694200DCBF300C1859C /* TryToGuessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryToGuessUITests.swift; sourceTree = "<group>"; };
 		EE756696200DCBF300C1859C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE7566A3200DE20000C1859C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEA373C72019BBE400EBB206 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		EEA373C92019BFC200EBB206 /* View+SubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+SubView.swift"; sourceTree = "<group>"; };
+		EEA373CB2019C87000EBB206 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		FBA26B8916D96BFBC9AB2589 /* Pods-TryToGuessUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryToGuessUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TryToGuessUITests/Pods-TryToGuessUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,6 +134,8 @@
 				EE38AAAB201728A3000847CC /* LaunchScreenViewController.swift */,
 				EE38AAAD20172907000847CC /* SignUpViewController.swift */,
 				EE38AAB220172B61000847CC /* LogInViewController.swift */,
+				EEA373C72019BBE400EBB206 /* MainViewController.swift */,
+				EEA373CB2019C87000EBB206 /* SettingsViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -165,10 +173,10 @@
 		EE756673200DCBF300C1859C /* TryToGuess */ = {
 			isa = PBXGroup;
 			children = (
+				EEA373C62019B71E00EBB206 /* Utilities */,
 				EE38AAAF20172993000847CC /* User */,
 				EE38AAAA20172888000847CC /* View Controllers */,
 				EE756674200DCBF300C1859C /* AppDelegate.swift */,
-				EE5025EC2011D34F00ADDD66 /* ApplicationAuth.swift */,
 				EE756676200DCBF300C1859C /* ViewController.swift */,
 				EE756678200DCBF300C1859C /* Main.storyboard */,
 				EE75667D200DCBF300C1859C /* LaunchScreen.storyboard */,
@@ -194,6 +202,15 @@
 				EE756696200DCBF300C1859C /* Info.plist */,
 			);
 			path = TryToGuessUITests;
+			sourceTree = "<group>";
+		};
+		EEA373C62019B71E00EBB206 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				EE5025EC2011D34F00ADDD66 /* ApplicationAuth.swift */,
+				EEA373C92019BFC200EBB206 /* View+SubView.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -492,10 +509,13 @@
 				EE5025ED2011D34F00ADDD66 /* ApplicationAuth.swift in Sources */,
 				EE756677200DCBF300C1859C /* ViewController.swift in Sources */,
 				EE38AAB12017299E000847CC /* User.swift in Sources */,
+				EEA373CC2019C87000EBB206 /* SettingsViewController.swift in Sources */,
 				EE38AAB320172B61000847CC /* LogInViewController.swift in Sources */,
 				EE38AAAC201728A3000847CC /* LaunchScreenViewController.swift in Sources */,
 				EE756675200DCBF300C1859C /* AppDelegate.swift in Sources */,
 				EE38AAAE20172907000847CC /* SignUpViewController.swift in Sources */,
+				EEA373CA2019BFC200EBB206 /* View+SubView.swift in Sources */,
+				EEA373C82019BBE400EBB206 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
