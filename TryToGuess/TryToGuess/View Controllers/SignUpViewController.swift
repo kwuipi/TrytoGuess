@@ -16,7 +16,6 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var login: UITextField?
     @IBOutlet weak var password: UITextField?
     
-    //let sign = User()
     @IBAction func chechLogInButton(_ sender: UIButton) {
         signUP()
     }
@@ -31,10 +30,14 @@ class SignUpViewController: UIViewController {
                 self.performSegue(withIdentifier: "SignUpPressed", sender: self)
             }
         }) { (response) in
+            self.alert()
         }
     }
-
+    func alert() {
+        let alertField = UIAlertController(title: "Alert", message: "Invalid login or password.", preferredStyle: .alert  )
+        alertField.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: "Default action"), style: .default, handler: nil))
+        self.present(alertField, animated: true, completion: nil)
+    }
     
-
 }
 

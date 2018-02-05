@@ -16,6 +16,8 @@ class MainViewController: UIViewController, UITableViewDataSource {
     var field = [String]()
     
     var table: UITableView?
+    let classNameQB = "Tests"
+    let id1 = ["5a72e119a28f9a0793f1fddd", "5a72e128a28f9a135bf1fd20"]
     
     override func viewDidLoad() {
          super.viewDidLoad()
@@ -27,17 +29,23 @@ class MainViewController: UIViewController, UITableViewDataSource {
     
     func get() {
         
-        QBRequest.object(withClassName: "test", id: "5a6989b5a28f9a2601f1fecb", successBlock: { [weak self] (response, customObject) in
-            guard let weakSelf = self else { return }
-            if let fields = customObject?.fields["tests"] as? [String] {
-                weakSelf.field.append(contentsOf: fields)
-                weakSelf.table?.reloadData()
-            }
+//        QBRequest.object(withClassName: classNameQB, id: id1, successBlock: { [weak self] (response, customObject) in
+//            guard let weakSelf = self else { return }
+//            if let fields = customObject?.fields["TestName"] as? [String] {
+//                weakSelf.field.append(contentsOf: fields)
+//                weakSelf.table?.reloadData()
+//            }
+//        }) { (response) in
+//
+//        }
+        
+        QBRequest.objects(withClassName: classNameQB, ids: id1, successBlock: { (response, <#[Any]?#>) in
+            <#code#>
         }) { (response) in
-            
+            <#code#>
         }
+      
     }
-    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return field.count
     }
@@ -45,7 +53,7 @@ class MainViewController: UIViewController, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell()
         let feil = field[indexPath.row]
-        cell.textLabel?.text = "a: \(feil) "
+        cell.textLabel?.text = "\(feil) "
         return cell
     }
     

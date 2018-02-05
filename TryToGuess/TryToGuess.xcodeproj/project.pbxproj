@@ -15,6 +15,7 @@
 		EE38AAB12017299E000847CC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE38AAB02017299E000847CC /* User.swift */; };
 		EE38AAB320172B61000847CC /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE38AAB220172B61000847CC /* LogInViewController.swift */; };
 		EE5025ED2011D34F00ADDD66 /* ApplicationAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5025EC2011D34F00ADDD66 /* ApplicationAuth.swift */; };
+		EE5557382026263800BFC0BD /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5557372026263800BFC0BD /* Alert.swift */; };
 		EE756675200DCBF300C1859C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE756674200DCBF300C1859C /* AppDelegate.swift */; };
 		EE756677200DCBF300C1859C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE756676200DCBF300C1859C /* ViewController.swift */; };
 		EE75667A200DCBF300C1859C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE756678200DCBF300C1859C /* Main.storyboard */; };
@@ -58,6 +59,7 @@
 		EE38AAB02017299E000847CC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		EE38AAB220172B61000847CC /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		EE5025EC2011D34F00ADDD66 /* ApplicationAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationAuth.swift; sourceTree = "<group>"; };
+		EE5557372026263800BFC0BD /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		EE756671200DCBF300C1859C /* TryToGuess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryToGuess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE756674200DCBF300C1859C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE756676200DCBF300C1859C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -209,6 +211,7 @@
 			children = (
 				EE5025EC2011D34F00ADDD66 /* ApplicationAuth.swift */,
 				EEA373C92019BFC200EBB206 /* View+SubView.swift */,
+				EE5557372026263800BFC0BD /* Alert.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -514,6 +517,7 @@
 				EE38AAAC201728A3000847CC /* LaunchScreenViewController.swift in Sources */,
 				EE756675200DCBF300C1859C /* AppDelegate.swift in Sources */,
 				EE38AAAE20172907000847CC /* SignUpViewController.swift in Sources */,
+				EE5557382026263800BFC0BD /* Alert.swift in Sources */,
 				EEA373CA2019BFC200EBB206 /* View+SubView.swift in Sources */,
 				EEA373C82019BBE400EBB206 /* MainViewController.swift in Sources */,
 			);

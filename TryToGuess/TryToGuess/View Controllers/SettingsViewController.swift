@@ -20,12 +20,7 @@ class SettingsViewController: UIViewController {
         QBRequest.logOut(successBlock: { (response) in
             self.performSegue(withIdentifier: "LogOutButtonPressed", sender: self)
         }) { (response) in
-            self.alert()
+            self.alert(message: "Some Problems")
         }
-    }
-    func alert() {
-        let alertField = UIAlertController(title: "Alert", message: "Invalid login or password.", preferredStyle: .alert  )
-        alertField.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: "Default action"), style: .default, handler: nil))
-        self.present(alertField, animated: true, completion: nil)
     }
 }
