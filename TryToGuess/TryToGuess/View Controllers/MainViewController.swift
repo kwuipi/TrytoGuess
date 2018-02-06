@@ -12,7 +12,7 @@ import Quickblox
 
 class MainViewController: UIViewController, UITableViewDataSource {
   
-    let customObject = QBCOCustomObject()
+//    let customObject = QBCOCustomObject()
     var field = [String]()
     
     var table: UITableView?
@@ -20,29 +20,28 @@ class MainViewController: UIViewController, UITableViewDataSource {
     let id1 = ["5a72e119a28f9a0793f1fddd", "5a72e128a28f9a135bf1fd20"]
     
     override func viewDidLoad() {
-         super.viewDidLoad()
+        super.viewDidLoad()
+        get()
         table = UITableView()
         view.addSubViews(table!, margins: UIEdgeInsets.zero)
         table?.dataSource = self
-        get()
     }
     
     func get() {
         
-//        QBRequest.object(withClassName: classNameQB, id: id1, successBlock: { [weak self] (response, customObject) in
-//            guard let weakSelf = self else { return }
-//            if let fields = customObject?.fields["TestName"] as? [String] {
-//                weakSelf.field.append(contentsOf: fields)
-//                weakSelf.table?.reloadData()
-//            }
-//        }) { (response) in
-//
-//        }
-        
-        QBRequest.objects(withClassName: classNameQB, ids: id1, successBlock: { (response, <#[Any]?#>) in
-            <#code#>
+        QBRequest.objects(withClassName: classNameQB, ids: id1, successBlock: { (response, objects) in
+            DispatchQueue.main.async {
+                for object in objects! {
+                    if let customObj = object as? QBCOCustomObject {
+                        if let fields = customObj.fields["TestName"] as? String  {
+                            self.field.append(fields)
+                            self.table?.reloadData()
+                        }
+                    }
+                }
+            }
         }) { (response) in
-            <#code#>
+            
         }
       
     }

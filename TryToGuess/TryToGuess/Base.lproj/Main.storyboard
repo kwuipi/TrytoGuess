@@ -166,9 +166,6 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Main" image="globe_earth" selectedImage="globe_earth" id="LzG-NU-VNU"/>
                     <navigationItem key="navigationItem" id="4XE-fI-IfY"/>
-                    <connections>
-                        <segue destination="bIt-bS-XXo" kind="show" identifier="ShowTestScreen" id="bL3-YM-7iv"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iW1-Ba-Xy6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -195,26 +192,28 @@
         <!--Test-->
         <scene sceneID="Uro-Y7-Q8n">
             <objects>
-                <viewController storyboardIdentifier="Test" title="Test" id="bIt-bS-XXo" customClass="SignUpViewController" customModule="TryToGuess" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TestViewController" title="Test" id="bIt-bS-XXo" customClass="TestViewController" customModule="TryToGuess" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gAg-gZ-SFQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jei-cL-URo">
-                                <rect key="frame" x="112" y="228" width="97" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A6W-B7-xpQ">
+                                <rect key="frame" x="10" y="30" width="355" height="627"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="jZD-HV-AK0" firstAttribute="trailing" secondItem="A6W-B7-xpQ" secondAttribute="trailing" constant="10" id="E21-tH-KHS"/>
+                            <constraint firstItem="jZD-HV-AK0" firstAttribute="bottom" secondItem="A6W-B7-xpQ" secondAttribute="bottom" constant="10" id="FYi-Fi-Duo"/>
+                            <constraint firstItem="A6W-B7-xpQ" firstAttribute="leading" secondItem="jZD-HV-AK0" secondAttribute="leading" constant="10" id="LfW-Sa-S1l"/>
+                            <constraint firstItem="A6W-B7-xpQ" firstAttribute="top" secondItem="jZD-HV-AK0" secondAttribute="top" constant="10" id="nUg-5u-725"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="jZD-HV-AK0"/>
                     </view>
                     <navigationItem key="navigationItem" id="27l-Yb-rZc"/>
-                    <connections>
-                        <outlet property="test" destination="Jei-cL-URo" id="5fY-XD-fw0"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OmY-oe-7nc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

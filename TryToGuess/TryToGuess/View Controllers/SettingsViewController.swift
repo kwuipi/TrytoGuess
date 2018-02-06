@@ -20,7 +20,7 @@ class SettingsViewController: UIViewController {
         QBRequest.logOut(successBlock: { (response) in
             self.performSegue(withIdentifier: "LogOutButtonPressed", sender: self)
         }) { (response) in
-            self.alert(message: "Some Problems")
+            
         }
     }
 }

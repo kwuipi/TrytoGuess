@@ -26,6 +26,7 @@
 		EEA373C82019BBE400EBB206 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA373C72019BBE400EBB206 /* MainViewController.swift */; };
 		EEA373CA2019BFC200EBB206 /* View+SubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA373C92019BFC200EBB206 /* View+SubView.swift */; };
 		EEA373CC2019C87000EBB206 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA373CB2019C87000EBB206 /* SettingsViewController.swift */; };
+		EEB538D02029E19600A3E16B /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB538CF2029E19600A3E16B /* TestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,7 @@
 		EEA373C72019BBE400EBB206 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		EEA373C92019BFC200EBB206 /* View+SubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+SubView.swift"; sourceTree = "<group>"; };
 		EEA373CB2019C87000EBB206 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		EEB538CF2029E19600A3E16B /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		FBA26B8916D96BFBC9AB2589 /* Pods-TryToGuessUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryToGuessUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TryToGuessUITests/Pods-TryToGuessUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -138,6 +140,7 @@
 				EE38AAB220172B61000847CC /* LogInViewController.swift */,
 				EEA373C72019BBE400EBB206 /* MainViewController.swift */,
 				EEA373CB2019C87000EBB206 /* SettingsViewController.swift */,
+				EEB538CF2029E19600A3E16B /* TestViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -519,6 +522,7 @@
 				EE38AAAE20172907000847CC /* SignUpViewController.swift in Sources */,
 				EE5557382026263800BFC0BD /* Alert.swift in Sources */,
 				EEA373CA2019BFC200EBB206 /* View+SubView.swift in Sources */,
+				EEB538D02029E19600A3E16B /* TestViewController.swift in Sources */,
 				EEA373C82019BBE400EBB206 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
