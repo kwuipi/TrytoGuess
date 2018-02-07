@@ -27,6 +27,7 @@
 		EEA373CA2019BFC200EBB206 /* View+SubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA373C92019BFC200EBB206 /* View+SubView.swift */; };
 		EEA373CC2019C87000EBB206 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA373CB2019C87000EBB206 /* SettingsViewController.swift */; };
 		EEB538D02029E19600A3E16B /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB538CF2029E19600A3E16B /* TestViewController.swift */; };
+		EEB538D32029E3D300A3E16B /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB538D22029E3D300A3E16B /* Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		EEA373C92019BFC200EBB206 /* View+SubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+SubView.swift"; sourceTree = "<group>"; };
 		EEA373CB2019C87000EBB206 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		EEB538CF2029E19600A3E16B /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		EEB538D22029E3D300A3E16B /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		FBA26B8916D96BFBC9AB2589 /* Pods-TryToGuessUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryToGuessUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TryToGuessUITests/Pods-TryToGuessUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -178,6 +180,7 @@
 		EE756673200DCBF300C1859C /* TryToGuess */ = {
 			isa = PBXGroup;
 			children = (
+				EEB538D12029E3AE00A3E16B /* Model */,
 				EEA373C62019B71E00EBB206 /* Utilities */,
 				EE38AAAF20172993000847CC /* User */,
 				EE38AAAA20172888000847CC /* View Controllers */,
@@ -217,6 +220,14 @@
 				EE5557372026263800BFC0BD /* Alert.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		EEB538D12029E3AE00A3E16B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EEB538D22029E3D300A3E16B /* Test.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -518,6 +529,7 @@
 				EEA373CC2019C87000EBB206 /* SettingsViewController.swift in Sources */,
 				EE38AAB320172B61000847CC /* LogInViewController.swift in Sources */,
 				EE38AAAC201728A3000847CC /* LaunchScreenViewController.swift in Sources */,
+				EEB538D32029E3D300A3E16B /* Test.swift in Sources */,
 				EE756675200DCBF300C1859C /* AppDelegate.swift in Sources */,
 				EE38AAAE20172907000847CC /* SignUpViewController.swift in Sources */,
 				EE5557382026263800BFC0BD /* Alert.swift in Sources */,
