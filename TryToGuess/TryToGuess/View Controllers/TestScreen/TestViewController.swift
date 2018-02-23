@@ -25,6 +25,7 @@ class TestViewController: UIViewController, UICollectionViewDataSource {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        questionCollection.dataSource = self
         getQestuions()
         questionCollectionViewLayout = CollectionViewCellLayout()
         questionCollection.collectionViewLayout = questionCollectionViewLayout
@@ -55,5 +56,8 @@ class TestViewController: UIViewController, UICollectionViewDataSource {
         return cell
     }
     
+    @IBAction func dissmisTest(_ sender: Any) {
+        dissmisTest(self)
+    }
 }
 

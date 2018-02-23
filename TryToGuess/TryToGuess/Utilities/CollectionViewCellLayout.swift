@@ -23,7 +23,7 @@ class CollectionViewCellLayout: UICollectionViewFlowLayout {
         set{}
         get {
             let numberOfColumns: CGFloat = 5
-            let itemWidth = (self.collectionView!.frame.width - (numberOfColumns - 1)) / numberOfColumns
+            let itemWidth = (self.collectionView!.frame.width)
             return CGSize(width: itemWidth, height: itemWidth)
         }
     }
