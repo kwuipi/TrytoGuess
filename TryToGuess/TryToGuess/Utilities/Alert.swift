@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-extension UIAlertController {
+extension UIViewController {
     func alert(message: String) {
         let alertField = UIAlertController(title: "Alert", message: message, preferredStyle: .alert  )
         alertField.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: "Default action"), style: .default, handler: nil))

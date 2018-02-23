@@ -12,9 +12,11 @@
 		CC76BEC79563325B470F3673 /* Pods_TryToGuessUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1DAE08A88E1907D65B939E5 /* Pods_TryToGuessUITests.framework */; };
 		EE38AAAC201728A3000847CC /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE38AAAB201728A3000847CC /* LaunchScreenViewController.swift */; };
 		EE38AAAE20172907000847CC /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE38AAAD20172907000847CC /* SignUpViewController.swift */; };
-		EE38AAB12017299E000847CC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE38AAB02017299E000847CC /* User.swift */; };
 		EE38AAB320172B61000847CC /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE38AAB220172B61000847CC /* LogInViewController.swift */; };
 		EE5025ED2011D34F00ADDD66 /* ApplicationAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5025EC2011D34F00ADDD66 /* ApplicationAuth.swift */; };
+		EE52EB94203EBD4F009C2868 /* QuestionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE52EB93203EBD4F009C2868 /* QuestionCollectionViewCell.swift */; };
+		EE52EB96203F1F27009C2868 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE52EB95203F1F27009C2868 /* TestViewController.swift */; };
+		EE52EB98203F2088009C2868 /* CollectionViewCellLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE52EB97203F2088009C2868 /* CollectionViewCellLayout.swift */; };
 		EE5557382026263800BFC0BD /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5557372026263800BFC0BD /* Alert.swift */; };
 		EE756675200DCBF300C1859C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE756674200DCBF300C1859C /* AppDelegate.swift */; };
 		EE756677200DCBF300C1859C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE756676200DCBF300C1859C /* ViewController.swift */; };
@@ -26,7 +28,6 @@
 		EEA373C82019BBE400EBB206 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA373C72019BBE400EBB206 /* MainViewController.swift */; };
 		EEA373CA2019BFC200EBB206 /* View+SubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA373C92019BFC200EBB206 /* View+SubView.swift */; };
 		EEA373CC2019C87000EBB206 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA373CB2019C87000EBB206 /* SettingsViewController.swift */; };
-		EEB538D02029E19600A3E16B /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB538CF2029E19600A3E16B /* TestViewController.swift */; };
 		EEB538D32029E3D300A3E16B /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB538D22029E3D300A3E16B /* Test.swift */; };
 /* End PBXBuildFile section */
 
@@ -58,9 +59,11 @@
 		E8300BFD0AC973E76E2DEB61 /* Pods-TryToGuess.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryToGuess.release.xcconfig"; path = "Pods/Target Support Files/Pods-TryToGuess/Pods-TryToGuess.release.xcconfig"; sourceTree = "<group>"; };
 		EE38AAAB201728A3000847CC /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
 		EE38AAAD20172907000847CC /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		EE38AAB02017299E000847CC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		EE38AAB220172B61000847CC /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		EE5025EC2011D34F00ADDD66 /* ApplicationAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationAuth.swift; sourceTree = "<group>"; };
+		EE52EB93203EBD4F009C2868 /* QuestionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionCollectionViewCell.swift; sourceTree = "<group>"; };
+		EE52EB95203F1F27009C2868 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		EE52EB97203F2088009C2868 /* CollectionViewCellLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellLayout.swift; sourceTree = "<group>"; };
 		EE5557372026263800BFC0BD /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		EE756671200DCBF300C1859C /* TryToGuess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryToGuess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE756674200DCBF300C1859C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,7 +81,6 @@
 		EEA373C72019BBE400EBB206 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		EEA373C92019BFC200EBB206 /* View+SubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+SubView.swift"; sourceTree = "<group>"; };
 		EEA373CB2019C87000EBB206 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		EEB538CF2029E19600A3E16B /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		EEB538D22029E3D300A3E16B /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		FBA26B8916D96BFBC9AB2589 /* Pods-TryToGuessUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryToGuessUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TryToGuessUITests/Pods-TryToGuessUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -137,22 +139,39 @@
 		EE38AAAA20172888000847CC /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				EE38AAAB201728A3000847CC /* LaunchScreenViewController.swift */,
-				EE38AAAD20172907000847CC /* SignUpViewController.swift */,
-				EE38AAB220172B61000847CC /* LogInViewController.swift */,
-				EEA373C72019BBE400EBB206 /* MainViewController.swift */,
+				EE52EB9B203F75AD009C2868 /* TestScreen */,
+				EE52EB9A203F758F009C2868 /* LaunchAndAuthScreen */,
+				EE52EB99203F7570009C2868 /* MainScreen */,
 				EEA373CB2019C87000EBB206 /* SettingsViewController.swift */,
-				EEB538CF2029E19600A3E16B /* TestViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
 		};
-		EE38AAAF20172993000847CC /* User */ = {
+		EE52EB99203F7570009C2868 /* MainScreen */ = {
 			isa = PBXGroup;
 			children = (
-				EE38AAB02017299E000847CC /* User.swift */,
+				EEA373C72019BBE400EBB206 /* MainViewController.swift */,
 			);
-			path = User;
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		EE52EB9A203F758F009C2868 /* LaunchAndAuthScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EE38AAAB201728A3000847CC /* LaunchScreenViewController.swift */,
+				EE38AAAD20172907000847CC /* SignUpViewController.swift */,
+				EE38AAB220172B61000847CC /* LogInViewController.swift */,
+			);
+			path = LaunchAndAuthScreen;
+			sourceTree = "<group>";
+		};
+		EE52EB9B203F75AD009C2868 /* TestScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EE52EB95203F1F27009C2868 /* TestViewController.swift */,
+				EE52EB93203EBD4F009C2868 /* QuestionCollectionViewCell.swift */,
+			);
+			path = TestScreen;
 			sourceTree = "<group>";
 		};
 		EE756668200DCBF300C1859C = {
@@ -180,9 +199,8 @@
 		EE756673200DCBF300C1859C /* TryToGuess */ = {
 			isa = PBXGroup;
 			children = (
-				EEB538D12029E3AE00A3E16B /* Model */,
 				EEA373C62019B71E00EBB206 /* Utilities */,
-				EE38AAAF20172993000847CC /* User */,
+				EEB538D12029E3AE00A3E16B /* Model */,
 				EE38AAAA20172888000847CC /* View Controllers */,
 				EE756674200DCBF300C1859C /* AppDelegate.swift */,
 				EE756676200DCBF300C1859C /* ViewController.swift */,
@@ -218,6 +236,7 @@
 				EE5025EC2011D34F00ADDD66 /* ApplicationAuth.swift */,
 				EEA373C92019BFC200EBB206 /* View+SubView.swift */,
 				EE5557372026263800BFC0BD /* Alert.swift */,
+				EE52EB97203F2088009C2868 /* CollectionViewCellLayout.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -525,16 +544,17 @@
 			files = (
 				EE5025ED2011D34F00ADDD66 /* ApplicationAuth.swift in Sources */,
 				EE756677200DCBF300C1859C /* ViewController.swift in Sources */,
-				EE38AAB12017299E000847CC /* User.swift in Sources */,
 				EEA373CC2019C87000EBB206 /* SettingsViewController.swift in Sources */,
 				EE38AAB320172B61000847CC /* LogInViewController.swift in Sources */,
+				EE52EB94203EBD4F009C2868 /* QuestionCollectionViewCell.swift in Sources */,
+				EE52EB96203F1F27009C2868 /* TestViewController.swift in Sources */,
 				EE38AAAC201728A3000847CC /* LaunchScreenViewController.swift in Sources */,
 				EEB538D32029E3D300A3E16B /* Test.swift in Sources */,
 				EE756675200DCBF300C1859C /* AppDelegate.swift in Sources */,
 				EE38AAAE20172907000847CC /* SignUpViewController.swift in Sources */,
 				EE5557382026263800BFC0BD /* Alert.swift in Sources */,
+				EE52EB98203F2088009C2868 /* CollectionViewCellLayout.swift in Sources */,
 				EEA373CA2019BFC200EBB206 /* View+SubView.swift in Sources */,
-				EEB538D02029E19600A3E16B /* TestViewController.swift in Sources */,
 				EEA373C82019BBE400EBB206 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -638,7 +658,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -689,7 +709,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -704,7 +724,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y683TFA2UW;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = TryToGuess/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TaranInc.TryToGuess;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -721,7 +743,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y683TFA2UW;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = TryToGuess/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TaranInc.TryToGuess;
 				PRODUCT_NAME = "$(TARGET_NAME)";

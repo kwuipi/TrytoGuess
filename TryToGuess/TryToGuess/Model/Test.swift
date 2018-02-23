@@ -1,70 +1,56 @@
+////
+////  Test.swift
+////  TryToGuess
+////
+////  Created by Евгений Таран on 2/6/18.
+////  Copyright © 2018 Zhenya Taran. All rights reserved.
+////
 //
-//  Test.swift
-//  TryToGuess
+//import Foundation
+//import Quickblox
 //
-//  Created by Евгений Таран on 2/6/18.
-//  Copyright © 2018 Zhenya Taran. All rights reserved.
+//class Test {
 //
-
-import Foundation
-import Quickblox
-
-struct Test {
-    
-    let test: String
-    
-    static var getTest: [Test] = {
-        var testName = [Test]()
-        let classNameQB = "Tests"
-        let id1 = ["5a72e119a28f9a0793f1fddd", "5a72e128a28f9a135bf1fd20"]
-        QBRequest.objects(withClassName: classNameQB, ids: id1, successBlock: { (response, objects) in
-            DispatchQueue.main.async {
-                for object in objects! {
-                    if let customObj = object as? QBCOCustomObject {
-                        if let fields = customObj.fields["TestName"] as? String  {
-                            testName.append(Test(test: "\(fields)"))
-                        }
-                    }
-                }
-            }
-            
-        }){ (response) in
-            
-        }
-        return testName
-    }()
-
-}
-//let title: String
-//let description: String
-//let id: String
+//    let classNameQB = "Tests"
+//    let ids = ["5a72e119a28f9a0793f1fddd", "5a72e128a28f9a135bf1fd20"]
+//    let testFieldName = "TestName"
 //
-//static var testNotes: [Note] = {
-//    var notes = [Note]()
-//    for note in 0...20 {
-//        notes.append(Note(title: "Test #\(note+1)", description: "Test #\(note+1)" + " vlad pidor", id: String(note)))
-//    }
-//    return notes
-//}()
+//    var test = [String]()
+//    var questions = [String]()
 //
-//static func  getNoteBy(id: String) -> Note? {
-//    return self.testNotes.filter { $0.id == id }.first
-//}
-
-//QBRequest.objects(withClassName: classNameQB, ids: id1, successBlock: { (response, objects) in
-//    DispatchQueue.main.async {
-//        for object in objects! {
-//            if let customObj = object as? QBCOCustomObject {
-//                if let fields = customObj.fields["TestName"] as? String  {
-//                    self.field.append(fields)
-//                    self.table?.reloadData()
+//    var saveTest(
+//
+//
+//    func getTest(saveTest() -> ()) {
+//        QBRequest.objects(withClassName: classNameQB, ids: ids, successBlock: { (response, objects) in
+//            for object in objects! {
+//                if let customObj = object as? QBCOCustomObject {
+//                    if let fields = customObj.fields[self.testFieldName] as? String {
+//                        var test: [String] = []
+//                        test.append(fields)
+//                    }
 //                }
 //            }
+//        }) { (response) in
+//
 //        }
 //    }
-//}) { (response) in
 //
-//}
+////    func count() -> Int{
+////        return test.count
+////    }
 //
+//
+//    func getQuestions(testId: String) {
+//        let customObject = QBCOCustomObject()
+//        QBRequest.object(withClassName: classNameQB, id: testId, successBlock: { [weak self](response, customObject) in
+//            guard let weakSelf = self else { return }
+//            if let fields = customObject?.fields["Questions"] as? [String] {
+//                weakSelf.questions.append(contentsOf: fields)
+//            }
+//        }) { (response) in
+//
+//        }
+//    }
 //}
 

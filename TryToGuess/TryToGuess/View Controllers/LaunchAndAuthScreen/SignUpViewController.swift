@@ -30,13 +30,8 @@ class SignUpViewController: UIViewController {
                 self.performSegue(withIdentifier: "SignUpPressed", sender: self)
             }
         }) { (response) in
-            self.alert()
+            self.alert(message: "Invalid login or password.")
         }
-    }
-    func alert() {
-        let alertField = UIAlertController(title: "Alert", message: "Invalid login or password.", preferredStyle: .alert  )
-        alertField.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: "Default action"), style: .default, handler: nil))
-        self.present(alertField, animated: true, completion: nil)
     }
     
 }
